@@ -1,1 +1,4 @@
 **/__pycache__/**
+/DataFetching/confirmed*
+/DataFetching/false*
+/DataFetching/*.csv
