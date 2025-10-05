@@ -1,5 +1,5 @@
 # NASA International Space Apps Challenge
-## A World Away: Hunting for Exoplanets with AI
+## Challenge: A World Away: Hunting for Exoplanets with AI
 ## Team: QuantumComet
 ## Members: Rachel Bonanno and Simon Webber
 
