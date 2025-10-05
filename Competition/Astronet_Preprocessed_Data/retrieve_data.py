@@ -27,7 +27,7 @@ def retrieve_data(tfrecord_file):
 def train_data():
     train_datasets = []
     for i in range(8):
-        train_datasets.append(retrieve_data(f"Astronet_Preprocessed_Data/train-0000{i}-of-00008"))
+        train_datasets.append(retrieve_data(f"train-0000{i}-of-00008"))
 
     Xg_train, Xl_train, label_train = [], [], []
     for dataset in train_datasets:
@@ -42,7 +42,7 @@ def train_data():
     return Xg_train, Xl_train, label_train
 
 def validation_data():
-    valid_dataset = retrieve_data(f"Astronet_Preprocessed_Data/val-00000-of-00001")
+    valid_dataset = retrieve_data(f"val-00000-of-00001")
 
     Xg_valid, Xl_valid, label_valid = [], [], []
     for (global_view, local_view), label in valid_dataset:
@@ -57,7 +57,7 @@ def validation_data():
 
 
 def test_data():
-    test_dataset = retrieve_data(f"Astronet_Preprocessed_Data/test-00000-of-00001")
+    test_dataset = retrieve_data(f"test-00000-of-00001")
 
     Xg_test, Xl_test, label_test = [], [], []
     for (global_view, local_view), label in test_dataset:

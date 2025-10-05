@@ -2,3 +2,5 @@
 /DataFetching/confirmed*
 /DataFetching/false*
 /DataFetching/*.csv
+**/hyper_tuning/**
+**/logs/**
